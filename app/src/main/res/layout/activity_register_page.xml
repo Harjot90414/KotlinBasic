@@ -35,13 +35,6 @@
         android:inputType="text"
         android:id="@+id/etUsername"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Gender:"
-        android:gravity="left"
-        android:textSize=""
-        />
 
     <EditText
     android:layout_width="match_parent"
