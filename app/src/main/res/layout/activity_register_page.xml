@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_page"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:id="@+id/tvRegister"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:id="@+id/etName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:id="@+id/etUsername"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:gravity="left"
+        android:textSize=""
+        />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:textSize="30sp"
+    android:layout_marginTop="20dp"
+    android:inputType="textEmailAddress"
+        android:id="@+id/etReg_Email"
+    />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:textSize="30sp"
+    android:layout_marginTop="20dp"
+    android:inputType="textPassword"
+        android:id="@+id/etReg_Password"
+    />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Confirm Password"
+    android:textSize="30sp"
+    android:layout_marginTop="20dp"
+    android:inputType="textPassword"
+        android:id="@+id/etConf_Password"
+    />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/btnConfirm"
+        />
+
+</LinearLayout>
